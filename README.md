@@ -1,5 +1,7 @@
 # My neovim Set-Up!
 
+<img src="https://i.ibb.co/wY5rgVz/2021-11-04-223312-1920x1080-scrot.png" />
+
 # Installation
 
 ```
