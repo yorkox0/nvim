@@ -9,6 +9,7 @@ grayr="\e[0;37m\033[1m"
 
 function main(){
 
+       echo
        echo -e "${red}[!] ${yellow}Installing nvim..."
 
        sleep 2
@@ -17,6 +18,7 @@ function main(){
        pip install neovim 2>/dev/null
        sudo npm i -g neovim 2>/dev/null
 
+       echo
        echo -e "${red}[!] ${yellow}Installing vim-plug..."
 
        sleep 2
@@ -34,14 +36,16 @@ function main(){
 
        cp -r nvim ~/.config/ 2>/dev/null
        
+       echo
        echo -e "${green}[+] Done!"
        
        echo
        sleep 1
 
+       echo
        echo -e "${red}[!] ${yellow}Executte 'nvim' and run :PlugInstall"
        
-       echo
+       echo -e "${end}"
        sleep 2
 
 }
