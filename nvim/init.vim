@@ -24,3 +24,6 @@ else
     source $HOME/.config/nvim/themes/airline.vim
     source $HOME/.config/nvim/themes/monokai-pro.vim
 endif
+
+colorscheme onedark
+syntax on
