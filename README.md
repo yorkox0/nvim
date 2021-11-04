@@ -9,4 +9,4 @@ git clone https://github.com/yorkox0/nvim; cd nvim; sh installer.sh
 ```
 # Based on:
 
-github.com/antoniosarosi/dotfiles
+https://github.com/antoniosarosi/dotfiles
