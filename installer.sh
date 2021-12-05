@@ -43,7 +43,7 @@ function main(){
        sleep 1
 
        echo
-       echo -e "${red}[!] ${yellow}Executte 'nvim' and run :PlugInstall"
+       echo -e "${red}[!] ${yellow}Execute 'nvim' and run :PlugInstall"
        
        echo -e "${end}"
        sleep 2
